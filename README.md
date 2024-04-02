@@ -41,6 +41,10 @@ Collectible Items
 
 Generalized the item name to CollectibleItem for scalability – so it could be a gem today, a coin tomorrow, or anything else in the future. Enhanced its collection effect using DOTween animations for an engaging user experience.
 
+# Enemy AI
+
+The basis for the creation of the enemy was very similar to that of the player, making use of the state pattern, it was possible to design a simple but robust enemy that has 2 states, patrolling and attacking, the simple fact of touching you makes you lose immediately.
+
 # Player Movement on Moving Platforms
 
 Challenge: The player didn't move along with the platform. 
